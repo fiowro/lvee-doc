@@ -26,9 +26,9 @@ h4. Структура таблицы User
 | projects		| text		| Проекты, в которых принимал участие пользователь|
 | crypted_password	| integer (11)	| Шифрование пароля				|
 | created_at		| DATA/TIME	| Синхронизационное поле			|
-| updated_at		| DATA/TIME	| --//--					|
+| updated_at		| DATA/TIME	| -//-					|
 | remember_token	| string (100)	| Поле запоминания пароля			|
-| remember_token_expiries| string (100) | --//--					|
+| remember_token_expiries| string (100) | -//-					|
 | activation_code	| integer (11)	| Поле генерации кода для активации аккаунта	|
 | activated_at		| DATA/TIME	| Поле, которое заполняется датой и временем активации аккаунта |
 | role			| integer (11)	| Роль пользователя в проекте			|
@@ -47,7 +47,7 @@ h4. Структура таблицы Conference
 | finish_date		| DATA/TIME	| Дата окончания конференции	|
 | registration_opened	| integer (11)	| Поле указания открытия/закрытия регистрации на конференцию |
 | created_at		| DATA/TIME	| Ссинхронизационное поле	|
-| updated_at		| DATA/TIME	| --//--			|
+| updated_at		| DATA/TIME	| -//-			|
 
 h4. Структура таблицы Abstract
 
@@ -58,7 +58,7 @@ h4. Структура таблицы Abstract
 | ready_for_review	| integer (2)	| Предпросмотр			|
 | author_id		| integer (11)	| Уникальный номер автора	|
 | created_at		| DATA/TIME	| Синхронизационное поле	|
-| updated_at		| DATA/TIME	| --//--			|
+| updated_at		| DATA/TIME	| -//-			|
 | version		| integer (11)	| Версия			|
 | conference_id		| integer (11)	| Уникальный номер конференции	|
 | authors		| string (100)	| (со)авторы тезисов		|
@@ -86,7 +86,7 @@ h4. Структура таблицы Conference_registration
 | floor			| text		| Готовность спать на полу за полцены :)	|
 | comment		| text		| Комментарий					|
 | created_at		| DATA/TIME	| синхронизационное поле			|
-| updated_at		| DATA/TIME	| --//--					|
+| updated_at		| DATA/TIME	| -//-					|
 
 h5. Структура таблицы Abstract_comment
 
@@ -96,7 +96,7 @@ h5. Структура таблицы Abstract_comment
 | user_id		| integer (11)	| Уникальный номер пользователя |
 | body			| text		| Тело комментария		|
 | created_at		| DATA/TIME	| синхронизационное поле	|
-| updated_at		| DATA/TIME	| --//--			|
+| updated_at		| DATA/TIME	| -//-			|
 
 h6. Структура таблицы Statuses
 
@@ -117,7 +117,7 @@ h7. Структура таблицы News
 | body			| text		| Текст новости			|
 | user_id		| integer (11)	| Пользователь - автор		|
 | created_at		| DATA/TIME	| Синхронизационное поле	|
-| updated_at		| DATA/TIME	| --//--			|
+| updated_at		| DATA/TIME	| -//-			|
 | parents_id		| integer (11)	| Раздел-родитель ???		|
 | published_ad		| DATA/TIME	| Дата публикации		|
 | version		| integer (11)	| Версия			|
