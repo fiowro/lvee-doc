@@ -1,6 +1,6 @@
 h1. Configuring lvee engine 
 
-After the "installation":http://lvee.org/uk/wiki_pages/[org]%20LVEE%20engine%20-%20installation lvee engine still needs to surpass some configuration. 
+After the "installation":install.textile lvee engine still needs to surpass some configuration. 
 
 h2. Creating admin user
 
