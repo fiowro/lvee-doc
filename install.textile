@@ -3,9 +3,9 @@ h1. Installing lvee engine
 General instruction to get working copy of the lvee engine includes following points:
 
 # We need Ruby, Rails, and a portion of GEMs. The simplest method to have it all without version conflicts is to use Ruby Version Manager. So first of all you should install rvm along with instructions at "rvm.io":https://rvm.io/rvm/install. E.g. for a user-based installation you are to execute something like
-<CODE><PRE>
+<PRE><CODE>
 curl -L get.rvm.io | bash -s stable --autolibs=3 --rails
-</PRE></CODE>
+</CODE></PRE>
 Of course you should have curl and git already installed in your system.
 After installation finishes, don't forget to source rvm profile, making yourself sure, that your fresh-installed ruby will be used in the next steps, and not your system-wide installed one. in case your home dir is _/home/vasya_, correspondent command should look like:
 <CODE>
