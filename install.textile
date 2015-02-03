@@ -56,4 +56,4 @@ rails s
 </CODE>
 and open website in your browser (URL should be localhost:3000 for the local installation).
 
-Several more steps are needed to make engine useful, including creation of an admin user, configuration of the mail robot, adding several auto-generated menu items, etc. These steps are described in the "confuguration guide":http://lvee.org/uk/wiki_pages/[org]%20LVEE%20engine%20-%20configuration.
+Several more steps are needed to make engine useful, including creation of an admin user, configuration of the mail robot, adding several auto-generated menu items, etc. These steps are described in the "confuguration guide":configure.textile
