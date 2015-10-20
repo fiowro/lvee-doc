@@ -7,14 +7,13 @@ h2. Creating admin user
 You need at least one user account to make content management possible. So the first thing to do is to create first user and delegate him administrator rights via the rails console.
 
 User should be created via website, by clicking the "register" link on top. After that you should run rails console in the terminal and set "role" attribute equal to "admin" for the first user, and, perhaps, write down some date of the account activation (to be able to login with new user):
-<PRE><CODE>
-source /home/vasya/.rvm/scripts/rvm
+
+bc. source /home/vasya/.rvm/scripts/rvm
 cd ./lvee
 rails c
 User.first.update_attribute("role", "admin")
 User.first.update_attribute("activated_at", "2001-02-03 01:02:03")
 quit
-</CODE></PRE>
 
 h2. Configuring status change notifications
 
@@ -49,8 +48,7 @@ By default it is supposed that there is an active SMTP server on the host where 
 
 There is an alternative  to local mail delivery agent, which involves some code editing to connect engine with your gmail account. File to be corrected is _lvee/config/enviroments/development.rb_.
 
-<PRE><CODE>
-config.action_mailer.raise_delivery_errors = false
+bc. config.action_mailer.raise_delivery_errors = false
 config.action_mailer.delivery_method = :smtp
 config.action_mailer.smtp_settings = {
 :address => "smtp.gmail.com",
@@ -58,7 +56,6 @@ config.action_mailer.smtp_settings = {
 :user_name => 'your_gmail_account_name',
 :password => 'your_gmail_password',
 :authentication => 'plain',
-:enable_starttls_auto => true }
-</CODE></PRE>
+:enable_starttls_auto => true } 
 
 Do not forget to use your real gmail account name and password.
