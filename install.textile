@@ -17,7 +17,7 @@ To get engine updates later you may run
 @git pull@
 while being in the lvee directory.
 # Now please go to the lvee directory and install dependencies: 
-@cd ./lvee-engine-master@
+@cd ./lvee-engine@
 @bundle install@
 The downloading and installation should take some time... In case of any conflicts, error messages would tell you the problematic library. Reasons may be in absence of some libraries or their "-dev" packages (in distributions, having such division of packages), too old library versions (or too new ones - especially in rolling release linux distributions). At the moment of writing this instructions, contemporary Ubuntu and Altlinux versions caused no problems, while Archlinux required downgrading imagemagick library to 6.7.7.10 version.
 # Now create your database configuration file...
