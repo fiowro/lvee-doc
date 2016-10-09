@@ -9,7 +9,7 @@ You need at least one user account to make content management possible. So the f
 User should be created via website, by clicking the "register" link on top. After that you should set admin role for the very first user in the terminal with a special script:
 
 bc. source ~/.rvm/scripts/rvm
-cd ./lvee-engine-master
+cd ./lvee-engine
 rake get_role_admin
 
 h2. Configuring status change notifications
