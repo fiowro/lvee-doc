@@ -6,7 +6,7 @@ h2. Creating admin user
 
 You need at least one user account to make content management possible. So the first thing to do is to create first user and delegate him administrator rights via the rails console.
 
-User should be created via website, by clicking the "register" link on top. After that you should run rails console in the terminal and set admin role for the very first user with a special script:
+User should be created via website, by clicking the "register" link on top. After that you should set admin role for the very first user in the terminal with a special script:
 
 bc. source ~/.rvm/scripts/rvm
 cd ./lvee-engine-master
